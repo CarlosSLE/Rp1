@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="formulario.css">
+<title>Inicia seción</title>
+</head>
+<body>
+  <center><h2>Formulario HTML Azul</h2></center>
+  <form action="/action_page.php">
+    <label for="fname">Nombre:</label>
+    <input type="text" id="fname" name="fname" placeholder="Tu nombre.." required>
+
+    <label for="ncontr">Contraseña:</label>
+    <input type="password" id="ncontr" placeholder="Tu contraseña.." required>
+
+    <label for="lname">Apellido:</label>
+    <input type="text" id="lname" name="lname" placeholder="Tu apellido.." required>
+
+    <label for="country">Continente:</label>
+    <select id="country" name="country">
+      <option value="Oceania">Oceania</option>
+      <option value="Europa">Europa</option>
+      <option value="America">America</option>
+      <option value="Africa">Africa</option>
+      <option value="Asia">Asia</option>
+    </select>
+  
+
+    <label for="subject">Mensaje:</label>
+    <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:130px"></textarea>
+    <center><p >Acepto los <a href="">terminos y condiciones</a></p></center>
+
+     <input type=""><center><input type="submit" value="Enviar"></center>
+  </form>
+</body>
+</html>
